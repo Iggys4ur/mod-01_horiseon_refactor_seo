@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
     padding: 0;
     margin: 0;
 }
@@ -26,7 +26,7 @@ body {
 
 .header div {
     padding-top: 15px;
-    margin-right: 20px;
+    margin: 32px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -50,31 +50,58 @@ p {
     font-size: 16px;
 }
 
+/* content inside the hero banner just below the header at the top of the page */
 .hero {
     height: 800px;
     width: 100%;
-    margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 
+/* element class to stagger content in each row of the content container*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* element class to stagger content in each row of the content container*/
 .float-right {
     float: right;
-    margin-left: 25px;
+    margin: 0 25px;
 }
 
+/* content in the middle of the page just below the hero banner */
 .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    width: 100%;
+    margin: 20px;
 }
 
+/* div for each row within the content container */
+.content div {
+    
+    margin: 30px;
+    padding: 30px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    align-content: center;
+}
+
+/* img container for the image in each element within the content container */
+.content div img {
+    display: inline-block;
+    max-height: 200px;
+}
+
+/* h2 container for the header in each element within the content container */
+.content div h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* container of elements displayed to the right of the content container and below the hero banner */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,7 +113,58 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* div in each row within the benefits container */
+.benefits div {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* h3 container for the header in each element within the benefits container */
+.benefits div h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* img container for the image in each element within the benefits container */
+.benefits div img {
+    display: inline-block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* footer container for the bottom of the page, below the benefits container */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* h2 container for the footer at the bottom of the page, below the benefits container */
+.footer h2 {
+    font-size: 20px;
+}
+
+/* media tag for responsive formatting when the browser window is 760px or smaller */
+@media (max-width: 760px){
+    * {
+        background-color: rgb(0, 153, 196);
+    }
+}
+
+/* media tag for responsive formatting when the browser window is larger than 760px */
+@media (min-width: 760px){
+    * {
+        background-color: red;
+    }
+
+    .content div {
+        background-color: red;
+    }
+}
+
+/* .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -99,9 +177,9 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-.benefit-lead h3 {
+/* .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -114,9 +192,9 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-.benefit-lead img {
+/* .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -132,9 +210,9 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
-.search-engine-optimization {
+/* .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -159,9 +237,9 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
-.search-engine-optimization img {
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -171,8 +249,8 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
-}
-
+} */
+/* 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -186,15 +264,5 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
-}
