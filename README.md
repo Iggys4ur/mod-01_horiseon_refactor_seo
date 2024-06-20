@@ -13,10 +13,6 @@ I was asked to refactor sample code by:
 - **removing repetitions**
 
 The following agile project management considerations were provided to define the scope of this assignment:
-1. **User Story**
-2. **Acceptance Criteria**
-3. **Mockup**
-4. **Instructions for submission**
 
 <details>
   <summary>Agile Project Management Considerations</summary>
