@@ -5,14 +5,14 @@ Codebase refactor to improve webpage:
 
 This project was undertaken as part of a coding bootcamp. This was the first challenge exercise (homework assignment) that was assigned by my instructor.
 
-## Takeaway
+# Takeaway
 Bringing code up to current standards is a common problem for many websites. 
 
 This project provided me with practice using git to methodically change HTML & CSS code as well as tracking and committing changes to the code.
 
 This project also served as good practice and reinforcement of git, html, css, and markdown, as well as the ways that they interact and the conventions that govern them.
 
-## Project Description
+# Project Description
 
 I was asked to refactor sample code by:
 - **incorperating semantic elements**
@@ -72,12 +72,12 @@ The following agile project management considerations were provided to define th
     
 </details>
 
-## Installation
+# Installation
 If you wish to run this project locally on your own computer, (assuming you have git installed) input the following code in your terminal:
 
 `git clone https://github.com/Iggys4ur/horiseon_refactor_seo.git <PATH_TO_DESTINATION_DIRECTORY>`
 
-## Usage
+# Usage
 The live site may be viewed at the following url:
 
 - https://iggys4ur.github.io/horiseon_refactor_seo/
@@ -89,7 +89,7 @@ The live site may be viewed at the following url:
   
 </details>
 
-## Submission
+# Submission
 GitHub repo
     - https://github.com/Iggys4ur/horiseon_refactor_seo/
 
