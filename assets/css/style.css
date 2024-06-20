@@ -10,43 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-<<<<<<< HEAD
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
-.header div {
-    padding-top: 15px;
-    margin: 32px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-=======
 /* Style for links */
->>>>>>> c0a08b5b683ee4b56d3d3e3cecefaa8adb55af5e
 a {
     color: #ffffff;
     text-decoration: none;
@@ -54,24 +18,11 @@ a {
 
 /* Standard font size for paragraphs */
 p {
-    font-size: 16pt;
+    font-size: calc(12pt + 6 * ((100vw - 320px) / 1024)); /* Responsive font size that scales with viewport window -- calculation was replicated from an answer observed on StackOverflow*/
 }
 
-<<<<<<< HEAD
-/* content inside the hero banner just below the header at the top of the page */
-.hero {
-    height: 800px;
-    width: 100%;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-/* element class to stagger content in each row of the content container*/
-=======
 /* Header styling for the main container */
 header.header {
-    width: 100%; /* Full width of the viewport */
     display: flex; /* Flexbox for layout */
     align-items: center; /* Vertically center items */
     padding: 20px 40px; /* Padding inside the header */
@@ -102,7 +53,7 @@ nav {
 nav ul {
     display: flex; /* Horizontal layout */
     list-style-type: none; /* Remove default list styling */
-    font-size: calc(16pt + 6 * ((100vw - 320px) / 1024)); /* Responsive font size */
+    font-size: calc(16pt + 6 * ((100vw - 320px) / 1024)); /* Responsive font size that scales with viewport window -- calculation was replicated from an answer observed on StackOverflow*/
 }
 
 /* Styling for individual navigation items */
@@ -126,51 +77,11 @@ nav ul li {
 }
 
 /* Float elements to the left */
->>>>>>> c0a08b5b683ee4b56d3d3e3cecefaa8adb55af5e
 .float-left {
     float: left; /* Float element to the left */
     margin-right: 25px; /* Right margin for spacing */
 }
 
-<<<<<<< HEAD
-/* element class to stagger content in each row of the content container*/
-.float-right {
-    float: right;
-    margin: 0 25px;
-}
-
-/* content in the middle of the page just below the hero banner */
-.content {
-    width: 100%;
-    margin: 20px;
-}
-
-/* div for each row within the content container */
-.content div {
-    
-    margin: 30px;
-    padding: 30px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-    align-content: center;
-}
-
-/* img container for the image in each element within the content container */
-.content div img {
-    display: inline-block;
-    max-height: 200px;
-}
-
-/* h2 container for the header in each element within the content container */
-.content div h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* container of elements displayed to the right of the content container and below the hero banner */
-=======
 /* Float elements to the right */
 .float-right {
     float: right; /* Float element to the right */
@@ -188,7 +99,7 @@ nav ul li {
 .content section {
     margin-bottom: 20px; /* Space below each section */
     padding: 50px; /* Padding inside each section */
-    height: 400px; /* Fixed height */
+    height: 300px; /* Fixed height */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font family */
     background-color: #0072bb; /* Blue background */
     color: #ffffff; /* White text color */
@@ -201,12 +112,11 @@ nav ul li {
 
 /* Styling for headings within content sections */
 .content section h2 {
+    font-size: calc(24pt + 6 * ((100vw - 320px) / 1024)); /* Responsive font size that scales with viewport window -- calculation was replicated from an answer observed on StackOverflow*/
     margin-bottom: 20px; /* Space below each heading */
-    font-size: 36px; /* Large font size */
 }
 
 /* Benefits section styling */
->>>>>>> c0a08b5b683ee4b56d3d3e3cecefaa8adb55af5e
 .benefits {
     display: flex; /* Flexbox for layout */
     flex: 1; /* Grow to take available space */
@@ -214,175 +124,24 @@ nav ul li {
     justify-content: space-around; /* Distribute space evenly */
     margin-right: 20px; /* Right margin */
     margin-bottom: 20px; /* Bottom margin */
-    padding: 50px; /* Padding inside */
+    padding: 0 50px; /* Padding inside */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font family */
     background-color: #2589bd; /* Light blue background */
 }
 
-<<<<<<< HEAD
-/* div in each row within the benefits container */
-.benefits div {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* h3 container for the header in each element within the benefits container */
-.benefits div h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-/* img container for the image in each element within the benefits container */
-.benefits div img {
-    display: inline-block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* footer container for the bottom of the page, below the benefits container */
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-/* h2 container for the footer at the bottom of the page, below the benefits container */
-.footer h2 {
-    font-size: 20px;
-}
-
-/* media tag for responsive formatting when the browser window is 760px or smaller */
-@media (max-width: 760px){
-    * {
-        background-color: rgb(0, 153, 196);
-    }
-}
-
-/* media tag for responsive formatting when the browser window is larger than 760px */
-@media (min-width: 760px){
-    * {
-        background-color: red;
-    }
-
-    .content div {
-        background-color: red;
-    }
-}
-
-/* .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-=======
 /* Styling for individual benefit items */
 .benefits section {
     margin-bottom: 32px; /* Space below each item */
     color: #ffffff; /* White text color */
->>>>>>> c0a08b5b683ee4b56d3d3e3cecefaa8adb55af5e
 }
 
 /* Styling for headings within benefit items */
-.benefits section h3 {
-    font-size: calc(16pt + 6 * ((100vw - 320px) / 1024)); /* Responsive font size */
+.benefits section h2 {
+    font-size: calc(20pt + 6 * ((100vw - 320px) / 1024)); /* Responsive font size that scales with viewport window -- calculation was replicated from an answer observed on StackOverflow*/
     margin-bottom: 10px; /* Space below each heading */
     text-align: center; /* Center align text */
 }
 
-<<<<<<< HEAD
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
-/* .benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-/* .benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-/* .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
-/* .search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */
-/* 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
-
-=======
 /* Styling for images within benefit items */
 .benefits section img {
     display: block; /* Block display */
@@ -460,4 +219,3 @@ nav ul li {
         margin: 0 20px; /* Adjust margin */
     }
 }
->>>>>>> c0a08b5b683ee4b56d3d3e3cecefaa8adb55af5e
