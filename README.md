@@ -1,36 +1,34 @@
 # [Module 1] Horiseon Code Refactor
-Codebase refactor to improve webpage:
+
+### Project Overview
+
+A codebase refactor to improve webpage:
 - SEO
 - Accessibility
 
 This project was undertaken as part of a coding bootcamp. This was the first challenge exercise (homework assignment) that was assigned by my instructor.
 
-# Takeaway
-Bringing code up to current standards is a common problem for many websites. 
-
-This project provided me with practice using git to methodically change HTML & CSS code as well as tracking and committing changes to the code.
-
-This project also served as good practice and reinforcement of git, html, css, and markdown, as well as the ways that they interact and the conventions that govern them.
-
-# Project Description
+### Details 
 
 I was asked to refactor sample code by:
-- **incorperating semantic elements**
-- **adding comments**
-- **removing repetitions**
+1. **Incorperating semantic elements**
+2. **Adding comments**
+3. **Removing repetitions**
+
+### Requirements
 
 The following agile project management considerations were provided to define the scope of this assignment:
 
 <details>
   <summary>Agile Project Management Considerations</summary>
 
-1. User Story:
+### 1. User Story:
 
     AS A marketing agency
     I WANT a codebase that follows accessibility standards
     SO THAT our own site is optimized for search engines
 
-2. Acceptance Criteria:
+### 2. Acceptance Criteria:
 
     GIVEN a webpage meets accessibility standards
     WHEN I view the source code
@@ -44,7 +42,7 @@ The following agile project management considerations were provided to define th
     WHEN I view the title element
     THEN I find a concise, descriptive title
 
-3. Mockup:
+### 3. Mockup:
 
     This layout is designed for "desktop", so you may notice that some of 
     the elements don't look like the Mock-Up when viewed at a resolution 
@@ -60,7 +58,7 @@ The following agile project management considerations were provided to define th
   
 </details>
 
-4. Instructions for Submission:
+### 4. Instructions for Submission:
 
     You are required to submit BOTH of the following for review:
 
@@ -71,6 +69,15 @@ The following agile project management considerations were provided to define th
     project.
     
 </details>
+
+## Takeaway
+Bringing code up to current standards is a common problem for many websites. 
+
+This project provided me with practice using git to methodically change HTML & CSS code as well as tracking and committing changes to the code.
+
+This project also served as good practice and reinforcement of git, html, css, and markdown, as well as the ways that they interact and the conventions that govern them.
+
+---
 
 # Installation
 If you wish to run this project locally on your own computer, (assuming you have git installed) input the following code in your terminal:
@@ -88,6 +95,7 @@ The live site may be viewed at the following url:
 ![Alt text](./assets/images/final-result.png)
   
 </details>
+
 
 # Submission
 GitHub repo
