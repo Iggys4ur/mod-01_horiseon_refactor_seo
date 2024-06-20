@@ -5,6 +5,13 @@ Codebase refactor to improve webpage:
 
 This project was undertaken as part of a coding bootcamp. This was the first challenge exercise (homework assignment) that was assigned by my instructor.
 
+## Takeaway
+Bringing code up to current standards is a common problem for many websites. 
+
+This project provided me with practice using git to methodically change HTML & CSS code as well as tracking and committing changes to the code.
+
+This project also served as good practice and reinforcement of git, html, css, and markdown, as well as the ways that they interact and the conventions that govern them.
+
 ## Project Description
 
 I was asked to refactor sample code by:
@@ -56,7 +63,7 @@ The following agile project management considerations were provided to define th
 ### 4. Instructions for Submission:
 
     You are required to submit BOTH of the following for review:
-    
+
     - The URL of the deployed application.
 
     - The URL of the GitHub repository that contains your code. Give the
@@ -81,13 +88,6 @@ The live site may be viewed at the following url:
 ![Alt text](./assets/images/final-result.png)
   
 </details>
-
-## Takeaway
-Bringing code up to current standards is a common problem for many websites. 
-
-This project provided me with practice using git to methodically change HTML & CSS code as well as tracking and committing changes to the code.
-
-This project also served as good practice and reinforcement of git, html, css, and markdown, as well as the ways that they interact and the conventions that govern them.
 
 ## Submission
 GitHub repo
