@@ -1,34 +1,41 @@
 # [Module 1] Horiseon Code Refactor
 
-### Project Overview
+## What I Learned From This Project
+Bringing code up to current standards is a common problem for many websites. 
+
+This project provided me with practice using git to methodically change HTML & CSS code as well as tracking and committing changes to the code.
+
+This project also served as good practice and reinforcement of git, html, css, and markdown, as well as the ways that they interact and the conventions that govern them.
+
+# Project Overview
 
 A codebase refactor to improve webpage:
 - SEO
 - Accessibility
 
-This project was undertaken as part of a coding bootcamp. This was the first challenge exercise (homework assignment) that was assigned by my instructor.
+This project was undertaken as part of the Rutgers University Coding Bootcamp. This was the first challenge exercise (homework assignment) that was assigned by my instructor.
 
-### Details 
+## Details 
 
 I was asked to refactor sample code by:
-1. **Incorperating semantic elements**
-2. **Adding comments**
-3. **Removing repetitions**
+- **Incorperating semantic elements**
+- **Adding comments**
+- **Removing repetitions**
 
-### Requirements
+## Requirements
 
 The following were provided to define the scope of this assignment:
 
 <details>
   <summary>Agile Project Management Considerations</summary>
 
-### 1. User Story:
+#### 1. User Story:
 
     AS A marketing agency
     I WANT a codebase that follows accessibility standards
     SO THAT our own site is optimized for search engines
 
-### 2. Acceptance Criteria:
+#### 2. Acceptance Criteria:
 
     GIVEN a webpage meets accessibility standards
     WHEN I view the source code
@@ -42,7 +49,7 @@ The following were provided to define the scope of this assignment:
     WHEN I view the title element
     THEN I find a concise, descriptive title
 
-### 3. Mockup:
+#### 3. Mockup:
 
     This layout is designed for "desktop", so you may notice that some of 
     the elements don't look like the Mock-Up when viewed at a resolution 
@@ -58,7 +65,7 @@ The following were provided to define the scope of this assignment:
   
 </details>
 
-### 4. Instructions for Submission:
+#### 4. Instructions for Submission:
 
     You are required to submit BOTH of the following for review:
 
@@ -70,12 +77,12 @@ The following were provided to define the scope of this assignment:
     
 </details>
 
-## Takeaway
-Bringing code up to current standards is a common problem for many websites. 
+## Submission
+GitHub repo
+    - https://github.com/Iggys4ur/horiseon_refactor_seo/
 
-This project provided me with practice using git to methodically change HTML & CSS code as well as tracking and committing changes to the code.
-
-This project also served as good practice and reinforcement of git, html, css, and markdown, as well as the ways that they interact and the conventions that govern them.
+Hosted Webpage
+    - https://iggys4ur.github.io/horiseon_refactor_seo/
 
 ---
 
@@ -95,14 +102,8 @@ The live site may be viewed at the following url:
 ![Alt text](./assets/images/final-result.png)
   
 </details>
+&nbsp;
 
-
-# Submission
-GitHub repo
-    - https://github.com/Iggys4ur/horiseon_refactor_seo/
-
-Hosted Webpage
-    - https://iggys4ur.github.io/horiseon_refactor_seo/
 
 # Credits
 The original files for this assignment may be found here if you wish to recreate this project:
@@ -111,12 +112,14 @@ The original files for this assignment may be found here if you wish to recreate
 I used the following guide to create this README.md file:
 - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
-Some of the code that I implemented was repurposed from resources and various answers found on a handful of sites and forums including:
+Some of the code that I implemented was repurposed and/or translated (converted, re-wrote, learned, etc.) from various resoures and answers found on a handful of sites and forums including:
 
 - https://stackoverflow.com/
 - https://reddit.com/
 - https://github.com/orgs/community/discussions/
 - https://w3schools.com/html/
+- https://w3schools.com/css/
+- https://docs.github.com/en
 
 # License
 This project has an MIT License. For more information read the LICENSE file.
