@@ -12,7 +12,7 @@ This project provided me with practice using git to methodically change HTML & C
 
 This project also served as good practice and reinforcement of git, html, css, and markdown, as well as the ways that they interact and the conventions that govern them.
 
-## Project Description
+### Project Description
 
 I was asked to refactor sample code by:
 - **incorperating semantic elements**
@@ -24,13 +24,13 @@ The following agile project management considerations were provided to define th
 <details>
   <summary>Agile Project Management Considerations</summary>
 
-### 1. User Story:
+#### 1. User Story:
 
     AS A marketing agency
     I WANT a codebase that follows accessibility standards
     SO THAT our own site is optimized for search engines
 
-### 2. Acceptance Criteria:
+#### 2. Acceptance Criteria:
 
     GIVEN a webpage meets accessibility standards
     WHEN I view the source code
@@ -44,7 +44,7 @@ The following agile project management considerations were provided to define th
     WHEN I view the title element
     THEN I find a concise, descriptive title
 
-### 3. Mockup:
+#### 3. Mockup:
 
     This layout is designed for "desktop", so you may notice that some of 
     the elements don't look like the Mock-Up when viewed at a resolution 
@@ -60,7 +60,7 @@ The following agile project management considerations were provided to define th
   
 </details>
 
-### 4. Instructions for Submission:
+#### 4. Instructions for Submission:
 
     You are required to submit BOTH of the following for review:
 
