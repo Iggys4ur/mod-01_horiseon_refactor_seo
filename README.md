@@ -43,7 +43,12 @@ The following agile project management considerations were provided to define th
 
 ### 3. Mockup:
 
-    This layout is designed for "desktop", so you may notice that some of the elements don't look like the Mock-Up when viewed at a resolution smaller than 768px. In future lessons, you will learn how to make elements "responsive" so that your web application is optimized for any screen size. The following image shows the web application's appearance and functionality:
+    This layout is designed for "desktop", so you may notice that some of 
+    the elements don't look like the Mock-Up when viewed at a resolution 
+    smaller than 768px. In future lessons, you will learn how to make 
+    elements "responsive" so that your web application is optimized for any 
+    screen size. The following image shows the web application's appearance 
+    and functionality:
 
 <details>
   <summary>Provided Mockup Screenshot</summary>
@@ -55,10 +60,10 @@ The following agile project management considerations were provided to define th
 ### 4. Instructions for Submission:
 
     You are required to submit BOTH of the following for review:
-
     - The URL of the deployed application.
-
-    - The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+    - The URL of the GitHub repository that contains your code. Give the
+    repository a unique name and include a README file that describes the 
+    project.
     
 </details>
 
@@ -92,8 +97,6 @@ GitHub repo
 
 Hosted Webpage
     - https://iggys4ur.github.io/horiseon_refactor_seo/
-
-
 
 # Credits
 The original files for this assignment may be found here if you wish to recreate this project:
