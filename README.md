@@ -14,7 +14,7 @@ If you wish to run this project locally on your own computer, (assuming you have
 ## Usage
 The live site may be viewed at the following url:
 
-`https://iggys4ur.github.io/horiseon_refactor_seo/`
+- https://iggys4ur.github.io/horiseon_refactor_seo/
 
 Here is a screenshot of the page.
 
