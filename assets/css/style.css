@@ -1,198 +1,224 @@
+/* Apply universal box-sizing to include padding and border in element's total width and height */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Set background color for the entire page */
 body {
     background-color: #d9dcd6;
 }
 
+/* Style for links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Standard font size for paragraphs */
 p {
     font-size: 16pt;
 }
 
+/* Header styling for main container */
 .header {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    padding: 20px 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    width: 100%; /* Full width of the viewport */
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Vertically center items */
+    padding: 20px 40px; /* Padding inside the header */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font family for header text */
+    background-color: #2a607c; /* Dark blue background */
+    color: #ffffff; /* White text color */
 }
 
+/* Main heading in the header */
 .header h1 {
-    display: inline-block;
-    font-size: 48px;
+    display: inline-block; /* Size according to content */
+    font-size: 48px; /* Large font size */
 }
 
+/* Styling for a specific part of the main heading */
 .header h1 .seo {
-    color: #2589bd;
+    color: #2589bd; /* Light blue color for distinction */
 }
 
+/* Navigation container in the header */
 .header div {
-    display: flex;
-    margin-left: auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex; /* Flexbox for layout */
+    margin-left: auto; /* Push to the right side */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font family for navigation text */
 }
 
+/* Styling for the navigation list */
 .header div ul {
-    display: flex;
-    list-style-type: none;
-    font-size: calc(16pt + 6 * ((100vw - 320px) / 1024));
+    display: flex; /* Horizontal layout */
+    list-style-type: none; /* Remove default list styling */
+    font-size: calc(16pt + 6 * ((100vw - 320px) / 1024)); /* Responsive font size */
 }
 
+/* Styling for individual navigation items */
 .header div ul li {
-    margin: 0px 25px;
+    margin: 0px 25px; /* Horizontal spacing between items */
 }
 
+/* Hero section styling */
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    height: 800px; /* Fixed height */
+    width: 100%; /* Full width */
+    margin-bottom: 25px; /* Space below hero section */
+    background-image: url("../images/digital-marketing-meeting.jpg"); /* Background image */
+    background-size: cover; /* Cover entire section */
+    background-position: center; /* Center the image */
 }
 
+/* General flex container */
 .row {
-    display: flex;
+    display: flex; /* Flexbox for layout */
 }
 
+/* Float elements to the left */
 .float-left {
-    float: left;
-    margin-right: 25px;
+    float: left; /* Float element to the left */
+    margin-right: 25px; /* Right margin for spacing */
 }
 
+/* Float elements to the right */
 .float-right {
-    float: right;
-    margin-left: 25px;
+    float: right; /* Float element to the right */
+    margin-left: 25px; /* Left margin for spacing */
 }
 
+/* Main content area styling */
 .content {
-    flex: 3;
-    display: inline-block;
-    margin: 0 20px;
+    flex: 3; /* Grow to take available space */
+    display: inline-block; /* Align horizontally */
+    margin: 0 20px; /* Horizontal margin */
 }
 
+/* Individual content section styling */
 .content div {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 400px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    margin-bottom: 20px; /* Space below each section */
+    padding: 50px; /* Padding inside each section */
+    height: 400px; /* Fixed height */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font family */
+    background-color: #0072bb; /* Blue background */
+    color: #ffffff; /* White text color */
 }
 
+/* Styling for images within content sections */
 .content div img {
-    max-height: 300px;
+    max-height: 300px; /* Maximum height */
 }
 
+/* Styling for headings within content sections */
 .content div h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 20px; /* Space below each heading */
+    font-size: 36px; /* Large font size */
 }
 
+/* Benefits section styling */
 .benefits {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    padding: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    display: flex; /* Flexbox for layout */
+    flex: 1; /* Grow to take available space */
+    flex-direction: column; /* Vertical layout */
+    justify-content: space-around; /* Distribute space evenly */
+    margin-right: 20px; /* Right margin */
+    margin-bottom: 20px; /* Bottom margin */
+    padding: 50px; /* Padding inside */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font family */
+    background-color: #2589bd; /* Light blue background */
 }
 
+/* Styling for individual benefit items */
 .benefits div {
-    margin-bottom: 32px;
-    color: #ffffff;
+    margin-bottom: 32px; /* Space below each item */
+    color: #ffffff; /* White text color */
 }
 
+/* Styling for headings within benefit items */
 .benefits div h3 {
-    font-size: calc(16pt + 6 * ((100vw - 320px) / 1024));
-    margin-bottom: 10px;
-    text-align: center;
+    font-size: calc(16pt + 6 * ((100vw - 320px) / 1024)); /* Responsive font size */
+    margin-bottom: 10px; /* Space below each heading */
+    text-align: center; /* Center align text */
 }
 
+/* Styling for images within benefit items */
 .benefits div img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    display: block; /* Block display */
+    margin: 10px auto; /* Center horizontally with margin */
+    max-width: 150px; /* Maximum width */
 }
 
+/* Footer section styling */
 .footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    padding: 30px; /* Padding inside */
+    clear: both; /* Clear floats */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font family */
+    text-align: center; /* Center align text */
 }
 
+/* Footer headings styling */
 .footer h2 {
-    font-size: 20px;
+    font-size: 20px; /* Standard font size */
 }
 
-@media (max-width: 1400px){
+/* Media query for screens with a maximum width of 1400px */
+@media (max-width: 1400px) {
     .header {
-        padding: 20px 0 30px;
-        flex-direction: column;
+        padding: 20px 0 30px; /* Adjust padding */
+        flex-direction: column; /* Stack items vertically */
     }
 
     .header div {
-        margin-left: 0;
+        margin-left: 0; /* Remove left margin */
     }
 
-    .header h1{
-        margin-bottom: 10px;
+    .header h1 {
+        margin-bottom: 10px; /* Space below heading */
     }
 
     .content {
-        width: auto;
-        margin: 0 20px;
+        width: auto; /* Auto width */
+        margin: 0 20px; /* Adjust margin */
     }
 
     .content div {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        align-items: center;
+        display: flex; /* Flexbox layout */
+        flex-direction: column; /* Vertical layout */
+        height: auto; /* Auto height */
+        align-items: center; /* Center align items */
     }
 
     .content div img {
-        margin: 0;
-        float:none;
-        max-height: 300px;
+        margin: 0; /* Remove margin */
+        float: none; /* Remove float */
+        max-height: 300px; /* Max height */
     }
 
     .content div h2 {
-        margin-bottom: 10px;
+        margin-bottom: 10px; /* Space below heading */
     }
 
     .content div img {
-        margin-bottom: 20px;
+        margin-bottom: 20px; /* Space below image */
     }
 
     .benefits {
-        width:auto;
-        float: none;
+        width: auto; /* Auto width */
+        float: none; /* Remove float */
     }
 }
 
-@media (max-width: 875px){
+/* Media query for screens with a maximum width of 875px */
+@media (max-width: 875px) {
     * {
         .row {
-            flex-direction: column;
+            flex-direction: column; /* Stack items vertically */
         }
 
         .benefits {
-            margin: 0 20px;
+            margin: 0 20px; /* Adjust margin */
         }
     }
 }
