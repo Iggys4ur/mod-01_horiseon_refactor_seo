@@ -12,7 +12,7 @@ This project provided me with practice using git to methodically change HTML & C
 
 This project also served as good practice and reinforcement of git, html, css, and markdown, as well as the ways that they interact and the conventions that govern them.
 
-### Project Description
+## Project Description
 
 I was asked to refactor sample code by:
 - **incorperating semantic elements**
