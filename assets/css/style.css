@@ -1,4 +1,4 @@
-/* Apply universal box-sizing to include padding and border in element's total width and height */
+/* Apply universal box-sizing to include padding and border in the element's total width and height */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -21,8 +21,8 @@ p {
     font-size: 16pt;
 }
 
-/* Header styling for main container */
-.header {
+/* Header styling for the main container */
+header.header {
     width: 100%; /* Full width of the viewport */
     display: flex; /* Flexbox for layout */
     align-items: center; /* Vertically center items */
@@ -33,32 +33,32 @@ p {
 }
 
 /* Main heading in the header */
-.header h1 {
+header h1 {
     display: inline-block; /* Size according to content */
     font-size: 48px; /* Large font size */
 }
 
 /* Styling for a specific part of the main heading */
-.header h1 .seo {
+header h1 .seo {
     color: #2589bd; /* Light blue color for distinction */
 }
 
 /* Navigation container in the header */
-.header div {
+nav {
     display: flex; /* Flexbox for layout */
     margin-left: auto; /* Push to the right side */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font family for navigation text */
 }
 
 /* Styling for the navigation list */
-.header div ul {
+nav ul {
     display: flex; /* Horizontal layout */
     list-style-type: none; /* Remove default list styling */
     font-size: calc(16pt + 6 * ((100vw - 320px) / 1024)); /* Responsive font size */
 }
 
 /* Styling for individual navigation items */
-.header div ul li {
+nav ul li {
     margin: 0px 25px; /* Horizontal spacing between items */
 }
 
@@ -97,7 +97,7 @@ p {
 }
 
 /* Individual content section styling */
-.content div {
+.content section {
     margin-bottom: 20px; /* Space below each section */
     padding: 50px; /* Padding inside each section */
     height: 400px; /* Fixed height */
@@ -107,12 +107,12 @@ p {
 }
 
 /* Styling for images within content sections */
-.content div img {
+.content section img {
     max-height: 300px; /* Maximum height */
 }
 
 /* Styling for headings within content sections */
-.content div h2 {
+.content section h2 {
     margin-bottom: 20px; /* Space below each heading */
     font-size: 36px; /* Large font size */
 }
@@ -131,20 +131,20 @@ p {
 }
 
 /* Styling for individual benefit items */
-.benefits div {
+.benefits section {
     margin-bottom: 32px; /* Space below each item */
     color: #ffffff; /* White text color */
 }
 
 /* Styling for headings within benefit items */
-.benefits div h3 {
+.benefits section h3 {
     font-size: calc(16pt + 6 * ((100vw - 320px) / 1024)); /* Responsive font size */
     margin-bottom: 10px; /* Space below each heading */
     text-align: center; /* Center align text */
 }
 
 /* Styling for images within benefit items */
-.benefits div img {
+.benefits section img {
     display: block; /* Block display */
     margin: 10px auto; /* Center horizontally with margin */
     max-width: 150px; /* Maximum width */
@@ -163,7 +163,7 @@ p {
     font-size: 20px; /* Standard font size */
 }
 
-/* Media query for screens with a maximum width of 1400px */
+/* Media query to make page more responsive by modifing content for screens with a maximum width of 1400px */
 @media (max-width: 1400px) {
     .header {
         padding: 20px 0 30px; /* Adjust padding */
@@ -183,24 +183,24 @@ p {
         margin: 0 20px; /* Adjust margin */
     }
 
-    .content div {
+    .content section {
         display: flex; /* Flexbox layout */
         flex-direction: column; /* Vertical layout */
         height: auto; /* Auto height */
         align-items: center; /* Center align items */
     }
 
-    .content div img {
+    .content section img {
         margin: 0; /* Remove margin */
         float: none; /* Remove float */
         max-height: 300px; /* Max height */
     }
 
-    .content div h2 {
+    .content section h2 {
         margin-bottom: 10px; /* Space below heading */
     }
 
-    .content div img {
+    .content section img {
         margin-bottom: 20px; /* Space below image */
     }
 
@@ -210,15 +210,13 @@ p {
     }
 }
 
-/* Media query for screens with a maximum width of 875px */
+/* Media query to make page more responsive by modifing content for screens with a maximum width of 875px */
 @media (max-width: 875px) {
-    * {
-        .row {
-            flex-direction: column; /* Stack items vertically */
-        }
+    .row {
+        flex-direction: column; /* Stack items vertically */
+    }
 
-        .benefits {
-            margin: 0 20px; /* Adjust margin */
-        }
+    .benefits {
+        margin: 0 20px; /* Adjust margin */
     }
 }
