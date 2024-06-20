@@ -17,7 +17,7 @@ I was asked to refactor sample code by:
 
 ### Requirements
 
-The following agile project management considerations were provided to define the scope of this assignment:
+The following were provided to define the scope of this assignment:
 
 <details>
   <summary>Agile Project Management Considerations</summary>
