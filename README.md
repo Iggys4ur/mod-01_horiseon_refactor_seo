@@ -43,8 +43,6 @@ The following agile project management considerations were provided to define th
 
 ### 3. Mockup:
 
-*Notes included with provided mockup:*
-
     This layout is designed for "desktop", so you may notice that some of the elements don't look like the Mock-Up when viewed at a resolution smaller than 768px. In future lessons, you will learn how to make elements "responsive" so that your web application is optimized for any screen size. The following image shows the web application's appearance and functionality:
 
 <details>
@@ -55,14 +53,13 @@ The following agile project management considerations were provided to define th
 </details>
 
 ### 4. Instructions for Submission:
-```
-You are required to submit BOTH of the following for review:
 
-- The URL of the deployed application.
+    You are required to submit BOTH of the following for review:
 
-- The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-```
-  
+    - The URL of the deployed application.
+
+    - The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+    
 </details>
 
 ## Installation
@@ -83,10 +80,13 @@ The live site may be viewed at the following url:
 </details>
 
 ## Takeaway
-Bringing code up to current standards is a common problem for many websites. This project provided me with practice using git to methodically change HTML & CSS code as well as tracking and committing changes to the code. This project also served as practice and reinforcement of html, css, markdown 
+Bringing code up to current standards is a common problem for many websites. 
+
+This project provided me with practice using git to methodically change HTML & CSS code as well as tracking and committing changes to the code.
+
+This project also served as good practice and reinforcement of git, html, css, and markdown, as well as the ways that they interact and the conventions that govern them.
 
 ## Submission
-
 GitHub repo
     - https://github.com/Iggys4ur/horiseon_refactor_seo/
 
@@ -96,11 +96,18 @@ Hosted Webpage
 
 
 # Credits
-The original files for this program may be found here if you wish to recreate this project:
+The original files for this assignment may be found here if you wish to recreate this project:
 - https://git.bootcampcontent.com/Rutgers-University/RUT-VIRT-FSF-FT-06-2024-U-LOLC.git
 
-I followed this guide to create this README.md file:
+I used the following guide to create this README.md file:
 - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+
+Some of the code that I implemented was repurposed from resources and various answers found on a handful of sites and forums including:
+
+- https://stackoverflow.com/
+- https://reddit.com/
+- https://github.com/orgs/community/discussions/
+- https://w3schools.com/html/
 
 # License
 This project has an MIT License. For more information read the LICENSE file.
