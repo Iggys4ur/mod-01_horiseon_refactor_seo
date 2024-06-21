@@ -1,6 +1,6 @@
 /* Apply universal box-sizing to include padding and border in the element's total width and height */
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -16,206 +16,211 @@ a {
     text-decoration: none;
 }
 
-/* Standard font size for paragraphs */
+/* Responsive font size for paragraphs */
 p {
-    font-size: calc(12pt + 6 * ((100vw - 320px) / 1024)); /* Responsive font size that scales with viewport window -- calculation was replicated from an answer observed on StackOverflow*/
+    font-size: calc(12pt + 6 * ((100vw - 320px) / 1024));
 }
 
 /* Header styling for the main container */
-header.header {
-    display: flex; /* Flexbox for layout */
-    align-items: center; /* Vertically center items */
-    padding: 20px 40px; /* Padding inside the header */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font family for header text */
-    background-color: #2a607c; /* Dark blue background */
-    color: #ffffff; /* White text color */
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
 }
 
 /* Main heading in the header */
 header h1 {
-    display: inline-block; /* Size according to content */
-    font-size: 48px; /* Large font size */
+    font-size: calc(48pt + 6 * ((100vw - 320px) / 1024));
 }
 
 /* Styling for a specific part of the main heading */
 header h1 .seo {
-    color: #2589bd; /* Light blue color for distinction */
+    color: #2589bd;
 }
 
 /* Navigation container in the header */
 nav {
-    display: flex; /* Flexbox for layout */
-    margin-left: auto; /* Push to the right side */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font family for navigation text */
+    display: flex;
+    margin-left: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Styling for the navigation list */
 nav ul {
-    display: flex; /* Horizontal layout */
-    list-style-type: none; /* Remove default list styling */
-    font-size: calc(16pt + 6 * ((100vw - 320px) / 1024)); /* Responsive font size that scales with viewport window -- calculation was replicated from an answer observed on StackOverflow*/
+    display: flex;
+    list-style-type: none;
+    font-size: calc(14pt + 6 * ((100vw - 320px) / 1024));
+    margin: 20px 25px 0;
 }
 
 /* Styling for individual navigation items */
 nav ul li {
-    margin: 0px 25px; /* Horizontal spacing between items */
+    margin: 0 25px 0;
+}
+
+/* Underline links on hover */
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 /* Hero section styling */
 .hero {
-    height: 800px; /* Fixed height */
-    width: 100%; /* Full width */
-    margin-bottom: 25px; /* Space below hero section */
-    background-image: url("../images/digital-marketing-meeting.jpg"); /* Background image */
-    background-size: cover; /* Cover entire section */
-    background-position: center; /* Center the image */
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 /* General flex container */
 .row {
-    display: flex; /* Flexbox for layout */
+    display: flex;
 }
 
 /* Float elements to the left */
 .float-left {
-    float: left; /* Float element to the left */
-    margin-right: 25px; /* Right margin for spacing */
+    float: left;
+    margin-right: 25px;
 }
 
 /* Float elements to the right */
 .float-right {
-    float: right; /* Float element to the right */
-    margin-left: 25px; /* Left margin for spacing */
+    float: right;
+    margin-left: 25px;
 }
 
 /* Main content area styling */
 .content {
-    flex: 3; /* Grow to take available space */
-    display: inline-block; /* Align horizontally */
-    margin: 0 20px; /* Horizontal margin */
+    flex: 3;
+    display: inline-block;
+    margin: 0 20px;
 }
 
 /* Individual content section styling */
-.content section {
-    margin-bottom: 20px; /* Space below each section */
-    padding: 50px; /* Padding inside each section */
-    height: 300px; /* Fixed height */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font family */
-    background-color: #0072bb; /* Blue background */
-    color: #ffffff; /* White text color */
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
 /* Styling for images within content sections */
-.content section img {
-    max-height: 300px; /* Maximum height */
+.content article img {
+    max-height: 300px;
 }
 
 /* Styling for headings within content sections */
-.content section h2 {
-    font-size: calc(24pt + 6 * ((100vw - 320px) / 1024)); /* Responsive font size that scales with viewport window -- calculation was replicated from an answer observed on StackOverflow*/
-    margin-bottom: 20px; /* Space below each heading */
+.content article h2 {
+    margin-bottom: 20px;
+    font-size: calc(14pt + 6 * ((100vw - 320px) / 1024));
 }
 
 /* Benefits section styling */
 .benefits {
-    display: flex; /* Flexbox for layout */
-    flex: 1; /* Grow to take available space */
-    flex-direction: column; /* Vertical layout */
-    justify-content: space-around; /* Distribute space evenly */
-    margin-right: 20px; /* Right margin */
-    margin-bottom: 20px; /* Bottom margin */
-    padding: 0 50px; /* Padding inside */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Font family */
-    background-color: #2589bd; /* Light blue background */
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
 }
 
 /* Styling for individual benefit items */
 .benefits section {
-    margin-bottom: 32px; /* Space below each item */
-    color: #ffffff; /* White text color */
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
 /* Styling for headings within benefit items */
 .benefits section h2 {
-    font-size: calc(20pt + 6 * ((100vw - 320px) / 1024)); /* Responsive font size that scales with viewport window -- calculation was replicated from an answer observed on StackOverflow*/
-    margin-bottom: 10px; /* Space below each heading */
-    text-align: center; /* Center align text */
+    font-size: calc(14pt + 6 * ((100vw - 320px) / 1024));
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 /* Styling for images within benefit items */
 .benefits section img {
-    display: block; /* Block display */
-    margin: 10px auto; /* Center horizontally with margin */
-    max-width: 150px; /* Maximum width */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 /* Footer section styling */
 .footer {
-    padding: 30px; /* Padding inside */
-    clear: both; /* Clear floats */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font family */
-    text-align: center; /* Center align text */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
 /* Footer headings styling */
-.footer h2 {
-    font-size: 20px; /* Standard font size */
+.footer h2,
+.footer p {
+    font-size: calc(10pt + 6 * ((100vw - 320px) / 1024));
 }
 
-/* Media query to make page more responsive by modifing content for screens with a maximum width of 1400px */
-@media (max-width: 1400px) {
+/* Media query for maximum viewport width of 1450px */
+@media (max-width: 1450px) {
     .header {
-        padding: 20px 0 30px; /* Adjust padding */
-        flex-direction: column; /* Stack items vertically */
+        padding: 20px 0 30px;
+        flex-direction: column;
     }
 
-    .header div {
-        margin-left: 0; /* Remove left margin */
+    .header nav {
+        margin-left: 0;
+    }
+    
+    .content article {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
     }
 
-    .header h1 {
-        margin-bottom: 10px; /* Space below heading */
-    }
-
-    .content {
-        width: auto; /* Auto width */
-        margin: 0 20px; /* Adjust margin */
-    }
-
-    .content section {
-        display: flex; /* Flexbox layout */
-        flex-direction: column; /* Vertical layout */
-        height: auto; /* Auto height */
-        align-items: center; /* Center align items */
-    }
-
-    .content section img {
-        margin: 0; /* Remove margin */
-        float: none; /* Remove float */
-        max-height: 300px; /* Max height */
-    }
-
-    .content section h2 {
-        margin-bottom: 10px; /* Space below heading */
-    }
-
-    .content section img {
-        margin-bottom: 20px; /* Space below image */
-    }
-
-    .benefits {
-        width: auto; /* Auto width */
-        float: none; /* Remove float */
+    .content article img {
+        margin: 0 0 30px 0;
+        float: none;
     }
 }
 
-/* Media query to make page more responsive by modifing content for screens with a maximum width of 875px */
-@media (max-width: 875px) {
-    .row {
-        flex-direction: column; /* Stack items vertically */
+/* Media query for maximum viewport width of 1260px */
+@media (max-width: 1260px) {
+    .content {
+        width: auto;
+        margin: 0 20px;
     }
 
     .benefits {
-        margin: 0 20px; /* Adjust margin */
+        width: auto;
+        float: none;
+    }
+}
+
+/* Media query for screens with a maximum width of 970px */
+@media (max-width: 970px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .benefits {
+        margin: 0 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px 0;
     }
 }
